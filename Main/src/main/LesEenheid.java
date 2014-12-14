@@ -14,7 +14,9 @@ public class LesEenheid {
     private String lesNaam;
     private int ects;
     private int studieJaar;
-
+    public static final int MINIMAAL_CIJFER = -1;
+    public static final double VOLDOENDE_CIJFER = 5.5;
+    
     public LesEenheid(String lesNaam, int ects, int studieJaar) {
         this.lesNaam = lesNaam;
         this.ects = ects;

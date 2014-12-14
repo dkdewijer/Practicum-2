@@ -28,6 +28,14 @@ public class Main {
         
         LesEenheid test = new LesEenheid("meeeeeh", 2, 2);
         System.out.println(test.toString());
-    }
+        
+        Vak test2 = new Vak("meeeh", 5, 3, 5);
+        test2.setCijfer(8);
+        System.out.println(test2.toString() + " " + test2.isGehaald());
+        
+        ProfessionalSkills test3 = new ProfessionalSkills("meeeh", 4, 4, true);
+        test3.setGehaald(false);
+        System.out.println(test3.toString() + test3.isGehaald());
+       }
 
 }
